@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: .875rem;
+  font-family: Inter, sans-serif;
+  color: var(--text);
+  background-color: var(--background);
+}
+
+:root {
+  --location: hsl(75, 95%, 57%);
+  --link-background: hsl(0, 0%, 20%);
+  --card-background: hsl(0, 0%, 12%);
+  --background: hsl(0, 0%, 8%);
+  --text: hsl(0, 0%, 100%);
+}
+
+.card {
+  height: 579px;
+  width: 327px;
+  background-color: var(--card-background);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  height: 88px;
+  width: 88px;
+  border-radius: 50%;
+  margin-top: 1.5rem;
+}
+
+.name-location {
+  margin-top: 1.5rem;
+  text-align: center;
+  height: 10%;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: .875rem;
+  color: var(--location);
+}
+
+.bio {
+  margin-top: 1.5rem;
+  font-size: .875rem;
+}
